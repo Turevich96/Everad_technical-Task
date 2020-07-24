@@ -1,0 +1,17 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+@mixin roboto{
+    font-family: Roboto;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+@mixin center {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
